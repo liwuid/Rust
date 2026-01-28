@@ -94,7 +94,7 @@ fn main() {
         if input.trim() == "y" {
             money -= banana_price;
             let banana = Banana::random();
-            println!("🍌 You got a {} banana!", banana);
+            println!("🍌 You got a {} banana!\n", banana);
 
             println!("Would you like to eat or sell it? (e/s)");
             let mut input = String::new();
